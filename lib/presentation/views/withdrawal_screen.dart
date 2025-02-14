@@ -113,11 +113,23 @@ class WithdrawalScreen extends StatelessWidget {
                           'Are you sure you want to withdraw \$${amount.toStringAsFixed(2)} from $_selectedComponent?',
                       textConfirm: 'Yes',
                       textCancel: 'No',
-                      onConfirm: () {
-                        _savingsController.withdraw(
-                            _selectedComponent.value, amount);
-                        Get.back();
-                        Get.back();
+                      onConfirm: () async {
+                        try {
+                          await _savingsController.withdraw(
+                              _selectedComponent.value, amount);
+                          Get.back(); // Close the confirmation dialog
+                          Get.back(); // Close the WithdrawalScreen (or navigate back to the previous screen)
+                        } catch (e) {
+                          Get.back();
+                          // Show an error dialog or Snackbar if an exception is thrown
+                          Get.snackbar(
+                            'Error',
+                            e.toString(), // Display the exception message
+                            snackPosition: SnackPosition.TOP,
+                            backgroundColor: Colors.red,
+                            colorText: Colors.white,
+                          );
+                        }
                       },
                     );
                   },

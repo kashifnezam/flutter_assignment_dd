@@ -6,7 +6,6 @@ import 'core/constants/app_colors.dart';
 import 'data/repositories/savings_repository.dart';
 import 'domain/controllers/savings_controller.dart';
 import 'domain/use_cases/add_savings_use_case.dart';
-import 'presentation/views/main_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

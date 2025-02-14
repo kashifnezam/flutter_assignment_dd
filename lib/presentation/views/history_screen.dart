@@ -20,13 +20,13 @@ class HistoryScreen extends StatelessWidget {
         elevation: 0,
         backgroundColor: Colors.transparent,
         actions: [
-          IconButton(
-            icon: const Icon(Icons.filter_list),
-            onPressed: () {
-              // Add filtering logic here
-              Get.snackbar('Filter', 'Filter by date or type');
-            },
-          ),
+          // IconButton(
+          //   icon: const Icon(Icons.filter_list),
+          //   onPressed: () {
+          //     // Add filtering logic here
+          //     Get.snackbar('Filter', 'Filter by date or type');
+          //   },
+          // ),
         ],
       ),
       body: Container(
