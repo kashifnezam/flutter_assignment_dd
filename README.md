@@ -43,10 +43,20 @@ This is a **Flutter mobile application** that allows users to manage their savin
 - **fl_chart**: For displaying charts (pie chart, bar chart).
 - **Clean Architecture**: For organizing the code into layers (core, data, domain, presentation).
 
----
-
 ## How to Run the App
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/kashifnezam/flutter_assignment_dd
    cd flutter_assignment_dd
+
+![Screenshot_1739552824](https://github.com/user-attachments/assets/a72d32de-3b7f-4e9c-8c20-78fa6c3b9d3f)
+
+![Screenshot_1739552853](https://github.com/user-attachments/assets/4ead4ad3-2dbe-48de-b019-4e0c07065487)
+
+![Screenshot_1739552860](https://github.com/user-attachments/assets/8cf532b5-3698-4c0f-ae40-fd62f2df2395)
+
+![Screenshot_1739552880](https://github.com/user-attachments/assets/c4c04183-8a34-4d7a-8797-9bba57228bdc)
+
+![Screenshot_1739552887](https://github.com/user-attachments/assets/b4a56e2a-82f9-4ed7-8794-0aa2c064a9d4)
+
+---
